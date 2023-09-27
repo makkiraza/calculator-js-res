@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <title>3D Calculator</title>
+</head>
+<body>
+
+    <script src="app.js"></script>
+                          
+                                 <!-- HTML OF CALCULATOR -->
+                                 <div class="calculator">
+                                    <div class="display">
+                                        <input type="text" id="display" readonly>
+                                    </div>
+                                    <div class="buttons">
+                                        <button onclick="number_function('7')">7</button>
+                                        <button onclick="number_function('8')">8</button>
+                                        <button onclick="number_function('9')">9</button>
+                                        <button onclick="number_function('+')">+</button>
+                                        <button onclick="number_function('4')">4</button>
+                                        <button onclick="number_function('5')">5</button>
+                                        <button onclick="number_function('6')">6</button>
+                                        <button onclick="number_function('-')">-</button>
+                                        <button onclick="number_function('1')">1</button>
+                                        <button onclick="number_function('2')">2</button>
+                                        <button onclick="number_function('3')">3</button>
+                                        <button onclick="number_function('*')">*</button>
+                                        <button onclick="number_function('0')">0</button>
+                                        <button onclick="number_function('.')">.</button>
+                                        <button onclick="calculate_operator('=')">=</button>
+                                        <button onclick="number_function('/')">/</button>
+                                        <button onclick="clear_Display('c')">C</button>
+                                        <button onclick="clearLastDigit()">⌫</button>
+                                    </div>
+                                </div>
+                                
+</body>
+</html>
